@@ -1,0 +1,81 @@
+.head {
+    height: 100px;
+    background: lightcoral;
+}
+
+.page {
+    height: 600px;
+    background: grey;
+}
+
+.page .link-google {
+    color: aqua;
+    flex-wrap: wrap;
+}
+
+.page .item {
+    font-style: italic;
+}
+
+.page .space-between {
+    height: 200px;
+}
+
+.page .parent-for-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page .animals .img.hidden {
+    display: none;
+}
+
+.page .animals .img img {
+    max-width: 400px;
+    border-radius: 40px;
+}
+
+.page .animals .img {
+    cursor: pointer;
+}
+
+.page .animals {
+    position: relative;
+}
+
+.page .animals .arrow:hover img {
+    display: block;
+}
+
+.page .animals .arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+.page .animals .arrow img {
+    height: 100px;
+    display: none;
+}
+
+.page .animals .arrow {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer {
+    height: 100px;
+    background: lightblue;
+}
+
+.head, .page, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
